@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sunface/tools"
+	"github.com/corego/tools"
 	"github.com/tealeg/xlsx"
 	"github.com/uber-go/zap"
 )

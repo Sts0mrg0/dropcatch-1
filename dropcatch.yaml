@@ -8,7 +8,7 @@ common:
 hunter:
    # true: 守护模式，每天指定时间自动去拉取域名文件，循环直到程序关闭
    # false: 非守护模式，用于手动拉取某天的域名文件
-   isdaemon: true
+   isdaemon: false
 
    # 守护模式下，每天指定时间去拉取域名文件(24小时制)
    # 1.不填： 默认中午12点
@@ -19,7 +19,7 @@ hunter:
    # 非守护模式下有两种Date格式:
    #   1. 不填： 代表程序运行当日
    #   2. 具体的日期： 2016-09-21
-   date: ""
+   date: "2016-09-24"
    # 域名文件被解析后输出到的文件夹
    outpath: "./out"
 
@@ -32,7 +32,7 @@ basefilter:
   maxlen: 6
 
   # 域名是否包含 '-'
-  excludedelim: false 
+  includedelim: false 
 
   # 域名的字符类型
   # 1: 纯字母, eg: qq.com

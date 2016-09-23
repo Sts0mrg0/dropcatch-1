@@ -7,7 +7,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/sunface/tools"
+	"github.com/corego/tools"
 )
 
 func (h *Hunter) daemon() {

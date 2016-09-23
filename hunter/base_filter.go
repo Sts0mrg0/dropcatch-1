@@ -45,7 +45,7 @@ func LenPass(s string, suffixLen int) bool {
 }
 
 func DelimPass(s string) bool {
-	if Conf.BaseFilter.ExcludeDelim {
+	if !Conf.BaseFilter.IncludeDelim {
 		// 不能包含 '-'
 		return !strings.Contains(s, "-")
 	}

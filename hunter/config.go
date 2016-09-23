@@ -25,7 +25,7 @@ type Config struct {
 	BaseFilter struct {
 		SuffixType   string
 		MaxLen       int
-		ExcludeDelim bool
+		IncludeDelim bool
 		CharType     int
 	}
 
